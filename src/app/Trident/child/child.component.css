@@ -1,0 +1,150 @@
+
+
+  #img1{  
+    position: relative;
+    top: 15px;
+    left: 80px;
+    height: 110px;
+    width: 100px;
+  }
+
+
+.h1{
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;  
+    opacity: 0.6;
+
+}
+
+hr{
+    border-width: 3px;
+    
+}
+
+.pr{
+    position: relative;
+    top: 50px;
+    height: 500px;
+    width: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.pr > #pr1{
+    position: absolute;
+    top: 60px;
+    left: 95px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;  
+    opacity: 0.7;
+    
+}
+
+.pr > #pr2{
+    position: absolute;
+    top: 110px;
+    left: -10px;
+    line-height: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica,;  
+    opacity: 0.5;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+.pr > #pr3{
+    position: absolute;
+    top: 540px;
+    left: 20px;
+    line-height: 15px;
+    font-size: 13px;
+    font-family: Arial, Helvetica;
+    font-weight: bold;  
+    opacity: 0.6;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+.form{
+    position: absolute;
+    top: 220px;
+    right:250px;
+    border: 2px solid  rgba(238, 204, 231, 0.973);
+    padding: 25px;
+    line-height: 5px;
+    
+    
+}
+
+.form > h5{
+    opacity: 0.5;
+}
+form > div{
+
+    opacity: 0.7;
+}
+
+  .button{
+    border-radius: 20px;
+    color:  rgb(82, 245, 182);;
+    background-color:  rgb(93, 5, 235);
+}
+
+.footer{
+    position: relative;
+    top: 180px;
+    left:0px;
+    background-color:  rgb(13, 213, 240);
+    height: 80px;
+    margin: -20px;
+}
+    #ftr1{
+        position: absolute;
+        top: 30px;
+        left: 150px;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    #ftr2{
+        position: absolute;
+        top: 16px;
+        left: 300px;
+        margin: 10px;
+        line-height: 25px;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+
+    }
+    #ftr3{
+        position: absolute;
+        top: 16px;
+        right: 520px;
+        margin: 10px;
+        line-height: 25px;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+
+    }
+
+    #ftr4{
+        position: absolute;
+        top: 16px;
+        right: 200px;
+        margin: 10px;
+        line-height: 25px;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+
+    }

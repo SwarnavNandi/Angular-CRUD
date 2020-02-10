@@ -1,0 +1,44 @@
+<form #empForm='ngForm' (ngSubmit)='saveEmployee(empForm)'>
+<div class="card" style="border:1px solid #007bff">
+  
+  <div class="card-header bg-primary">
+    <div class="card-title">
+      Create Employee
+    </div>
+  </div>
+
+    <div class="card-body">
+      <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" id='fullName' name='Full Name' [(ngModel)]='fullName' class='form-control'>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="Email" [(ngModel)]='email' class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Gender</label>
+        <div class="form-control">
+          <label for="male" class='radio-inline'>
+            <input type="radio" id='male'value='male' name='Gender' [(ngModel)]='gender'>
+            Male
+          </label>
+          <label for="female" class='radio-inline'>
+            <input type="radio" id='female' value="female" name='Gender' [(ngModel)]='gender'>
+            Female
+          </label>
+        </div>
+        
+      </div>
+      
+    </div>
+  
+  
+  <div class="card-footer">
+    <button type='submit' class='btn btn-primary'>Submit</button>
+  </div>
+</div>
+
+</form>
+
+Employee Deatils:{{ empForm.value | json }}
